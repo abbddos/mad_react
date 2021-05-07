@@ -1,0 +1,31 @@
+.vertical-menu {
+    width: 300px; /* Set a width if you like */
+    height: 100%;
+    position: fixed;
+    background-color: #eee;
+    padding: 5px;
+    padding-top: 80px;
+    float: left;
+  }
+
+  .vertical-menu-title{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0,0,100);
+    color: white;
+  }
+
+  .vertical-menu-link{
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    transition: 0.3s;
+  }
+
+  .vertical-menu-link:hover{
+    background-color: white;
+    color: rgb(0,0,100);
+    font-weight: bold;
+  }
